@@ -1,0 +1,146 @@
+@font-face{
+	font-family: 'Malgun';
+	src: url('polices/malgun.ttf') format('truetype');
+}
+
+.barre_navigation{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.barre_navigation p{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: 'Malgun';
+	font-size: 18pt;
+}
+
+.barre_navigation p:hover{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: 'Malgun';
+	font-size: 18pt;
+	color: white;
+	background-color: rgba(97, 97, 97, 1);
+}
+
+.barre_navigation a{
+	text-decoration: none;
+}
+
+.barre_navigation a:visited{
+	color: black;
+}
+
+.bandeau
+{
+	padding-top: 200px;
+	height: 500px;
+	background-image: url('images/image_bandeau.JPG') ;
+	background-size: cover;
+	color: white;
+	background-position: center;
+}
+
+.bandeau h2
+{
+	width: 350px;
+	font-family: 'Malgun';
+	font-size: 18pt;
+	padding-left: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgba(97, 97, 97, 0.7);
+}
+
+
+.titre{
+	margin-top: 80px;
+	text-align: center;
+	font-family: 'Malgun';
+	font-size: 18pt;
+}
+
+.photo
+{
+	text-align: center;
+	font-family: 'Malgun';
+	font-size: 12pt;
+}
+
+.conteneur_derniere_serie{
+	margin-top: 80px;
+	display: flex;
+	justify-content: flex-end;
+	height: 300px;
+}
+
+.conteneur_derniere_serie a:visited{
+	color: white;
+}
+
+.bloc_annonce{
+	font-family: 'Malgun';
+	font-size: 16pt;
+	text-align: center;
+	color: white;
+	background-image: url('images/VOT_mery_fond.JPG');
+	background-position: center;
+	background-size: cover;
+	padding-left: 20px;
+	padding-right: 20px;
+	vertical-align: middle;
+}
+
+.texte_annonce{
+	display: block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.conteneur_photos{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 80px;
+}
+
+.conteneur_photos img {
+	width: 300px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.albums{
+	margin-top: 80px;
+}
+
+.albums img:hover{
+	opacity: 0.3;
+}
+
+.lien_conteneur_photo{
+	position: relative;
+}
+
+
+.texte_sur_photo{
+	position: absolute;
+	display: flex;
+	bottom: 80px;
+	left:0;
+	right:0;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Malgun';
+	display: none;
+}
+
+.lien_conteneur_photo:hover .texte_sur_photo{
+	display: flex;
+}
+
